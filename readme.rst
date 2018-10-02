@@ -8,6 +8,9 @@ Inventory System is open source to meet the needs of the warehousing system.
 *******************
 Release Information Ibas Abilowo
 *******************
+username : ibas
+password : ibasbase
+
 
 This repo contains in-development code for future releases. To download the
 latest stable release please visit the `CodeIgniter Downloads
