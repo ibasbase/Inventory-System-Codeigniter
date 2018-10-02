@@ -1,12 +1,12 @@
 ###################
-What is CodeIgniter
+What is Inventory System
 ###################
 
-Inventory System is open source
+Inventory System is open source to meet the needs of the warehousing system.
 
 
 *******************
-Release Information Ibas Blaem Blaem
+Release Information Ibas Abilowo
 *******************
 
 This repo contains in-development code for future releases. To download the
