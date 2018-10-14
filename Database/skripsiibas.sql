@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Aug 07, 2018 at 11:40 AM
--- Server version: 10.1.28-MariaDB
--- PHP Version: 7.1.10
+-- Host: localhost
+-- Generation Time: Oct 14, 2018 at 06:54 PM
+-- Server version: 10.1.36-MariaDB
+-- PHP Version: 7.1.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -248,8 +248,8 @@ CREATE TABLE `register` (
   `nama_depan` varchar(25) DEFAULT NULL,
   `nama_belakang` varchar(25) DEFAULT NULL,
   `tanggal` date DEFAULT NULL,
-  `username` varchar(25) NOT NULL,
-  `password` varchar(25) DEFAULT NULL,
+  `username` varchar(60) NOT NULL,
+  `password` varchar(60) DEFAULT NULL,
   `status` varchar(25) DEFAULT NULL,
   `foto` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -259,11 +259,11 @@ CREATE TABLE `register` (
 --
 
 INSERT INTO `register` (`nama_depan`, `nama_belakang`, `tanggal`, `username`, `password`, `status`, `foto`) VALUES
-('admin', 'admin', '2018-08-07', 'admin', 'admin', 'admin', 'admin.jpg'),
-('ibas', 'base', '2018-08-07', 'ibas', 'ibasbase', 'admin', '2015-05-26 11.jpg'),
-('purchasing', 'purchasing', '2018-08-07', 'purchasing', 'purchasing', 'purchasing', 'purchasing.jpg'),
+('admin', 'admin', '2018-08-07', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'admin.jpg'),
+('ibas', 'base', '2018-08-07', 'ibas', '4f0c6beb94590174d66943a5fdc4840c', 'admin', '2015-05-26 11.jpg'),
+('purchasing', 'purchasing', '2018-08-07', 'purchasing', '74ba4e8291e8b2e40a31a50505f8b72e', 'purchasing', 'purchasing.jpg'),
 ('user', 'user', '2018-08-07', 'user', 'user', 'warehouse', 'Koala.jpg'),
-('warehouse', 'warehouse', '2018-08-07', 'warehouse', 'warehouse', 'warehouse', 'warehouse.jpg');
+('warehouse', 'warehouse', '2018-08-07', 'warehouse', '372d30dd2849813ef674855253900679', 'warehouse', 'warehouse.jpg');
 
 -- --------------------------------------------------------
 
