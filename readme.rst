@@ -23,3 +23,5 @@ Inventory Barang ini have 3 user.
 Creat : Muhammad Nibras Abilowo (Ibas)
 email : muhammadnibras1@gmail.com
 hp    : 089 71 678 144
+
+web : http://sisteminformasiinventorybarang.web.id
